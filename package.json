@@ -1,0 +1,28 @@
+{
+  "name": "midtok",
+  "version": "0.0.0",
+  "scripts": {
+    "co": "sui-mono commit",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@s-ui/mono": "^2.18.0",
+    "@types/react": "17.0.38",
+    "@types/react-dom": "17.0.11",
+    "@vitejs/plugin-react": "1.1.4",
+    "standard": "16.0.4",
+    "typescript": "4.5.5",
+    "vite": "2.7.13"
+  },
+  "-eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
