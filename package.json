@@ -20,7 +20,7 @@
     "typescript": "4.5.5",
     "vite": "2.7.13"
   },
-  "-eslintConfig": {
+  "eslintConfig": {
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
